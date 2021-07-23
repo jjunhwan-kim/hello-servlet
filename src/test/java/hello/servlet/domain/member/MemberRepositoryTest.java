@@ -36,7 +36,7 @@ class MemberRepositoryTest {
         // given
         Member member1 = new Member("member1", 20);
         Member member2 = new Member("member2", 30);
-        
+
         memberRepository.save(member1);
         memberRepository.save(member2);
 
